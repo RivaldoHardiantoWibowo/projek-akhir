@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="img/Kedai Manis.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Kedai Manis</title>
+  </head>
+  <body>
+
+    <nav class="navbar" id="myMenu">
+      <a href="#" class="navbar-logo">Kedai<span>Manis</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="img/img/boba.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Produk 1</h3>
+                     <div class="item-price">IDR 15K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/img/matcha.jpg" alt="Product 2">
+                <div class="item-detail">
+                    <h3>Produk 2</h3>
+                     <div class="item-price">IDR 20K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/img/menu.jpeg" alt="Product 3">
+                <div class="item-detail">
+                    <h3>Produk 3</h3>
+                     <div class="item-price">IDR 25K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Nikmati Secangkir <span>Hot Matcha</span></h1>
+            <p>Dengan Daun Teh pilihan Dan proses Pengolahan yang cermat menciptakan Cita Rasa Sempurna di setiap Cangkirnya</p>
+            <!-- <a href="#home" class="cta">Beli Sekarang</a> -->
+        </main>
+    </section>
+
+    <section id="about" class="about">
+        <h2><span>Tentang</span> Kami </h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="img/about.jpg" alt="Tentang Kami">
+            </div>
+            <div class="content">
+                <h3>Kenapa harus Kedai Manis?</h3>
+                <p>Disini kita diberi kulitas minuman yang luar biasa. dengan keahlian barista diKedai Manis yang Profesional
+                    dan juga banyak sekali menu-menu yang menarik.
+                </p>
+                      <p>Tidak hanya itu Kedai Manis juga memiliki lingkungan yang Menyenangkan dan juga Bersahabat.
+                        Dengan fasilitasnya yang moderen membuat para Costumer nyaman ketika nongkrong diKedai Manis ini.
+                      </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Menu <span>Kami</span></h2>
+        <p>Dikedai Manis memiliki banyak varian menu mulai dari Coffee, Boba dengan banyak varian rasa, Matcha, Jus Buah dan masih banyak lagi</p>
+
+            <div class="row">
+                <div class="menu-card">
+                    <img src="img/img/menu.jpeg" alt="Espresso" class="menu-card-img">
+                    <h3 class="menu-card-tittle">Coffee</h3>
+                    <p class="menu-card-price">IDR 25K</p>
+                </div>
+                <div class="menu-card">
+                    <img src="img/img/boba.jpg" alt="Espresso" class="meun-card-img">
+                    <h3 class="menu-card-tittle">Boba-Varian Rasa</h3>
+                    <p class="menu-card-price">IDR 15K</p>
+                </div>
+                <div class="menu-card">
+                    <img src="img/img/matcha.jpg" alt="Espresso" class="meun-card-img">
+                    <h3 class="menu-card-tittle">Matcha</h3>
+                    <p cla  ss="menu-card-price">IDR 20K</p>
+                </div>
+                <div class="menu-card">
+                    <img src="img/img/jus.jpg" alt="Espresso" class="meun-card-img">
+                    <h3 class="menu-card-tittle">Jus</h3>
+                    <p class="menu-card-price">IDR 18K</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Kon<span>tak</span> Ka<span>mi</span></h2>
+        <p>Silahkan hubungi kami apalbila anda ingin memesan secara online</p>
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126829.
+            29180930794!2d106.70949000605887!3d-6.5951867394093675!2m3!1f0!2f0!3f0!3m2
+            !1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5b7ad0f824b%3A0x4c71fd1b0b8ae76d!2sK
+            ota%20Bogor%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1687015537578!5m2!1sid!2sid"
+             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+             <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" name="nama" id="name" placeholder="Nama"  autocomplete="off">
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" name="email" id="email" placeholder="Email" autocomplete="off">
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" name="pesan" id="pesan" placeholder="No Hp" autocomplete="off">
+                </div>
+                <button action="#" class="btn">Kirim Pesan</button>
+             </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/rivaldo_hardianto_w/">
+                <i data-feather="instagram"></i></a>
+            <a href="#">
+                <i data-feather="twitter"></i></a>
+            <a href="https://web.facebook.com/rivaldo.hardianto">
+                <i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
